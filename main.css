@@ -89,11 +89,14 @@ footer a{
     transform: translate(0);
     margin: 1rem 0;
   }
+ .frs {
+   width: 90%;
+ }
   .content {
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 3rem;
   }
   .content img {
-    margin-top: 2rem;
+    margin-top: 0;
   }
   .content h1 {
    padding-top: 1.5rem;
@@ -103,11 +106,13 @@ footer a{
     width: 250px;
   }
   .first {
+    
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
     border-bottom-left-radius: 0 ;
   }
   .third {
+    
     border-top-right-radius: 0;
     border-bottom-right-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;

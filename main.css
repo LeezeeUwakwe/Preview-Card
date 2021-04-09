@@ -16,13 +16,13 @@
   padding: 2rem;
   
 }
-.content>h1 {
+.content h1 {
   font-weight: 700;
   color: #fff;
   font-family: 'Big Shoulders Display', cursive;
   padding-top: 2rem;
 }
-.content>p {
+.content p {
   color: #fff;
   width: 200px;
   font-family: 'Lexend Deca', sans-serif;
@@ -61,6 +61,21 @@
 .btn-3 {
   color: #00403F;
 }
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  
+}
+footer h1 {
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+footer a{
+  text-decoration: none;
+}
+
 
 @media screen  and (max-width: 768px){
   
@@ -77,13 +92,13 @@
   .content {
     padding: 1.5rem 2rem;
   }
-  .content>img {
+  .content img {
     margin-top: 2rem;
   }
-  .content>h1 {
+  .content h1 {
    padding-top: 1.5rem;
   }
-  .content>p {
+  .content p {
     padding-top: 1.5rem;
     width: 250px;
   }
@@ -97,7 +112,17 @@
     border-bottom-right-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
   }
-  .btn-learn {
-    margin: 2.5rem 0 1.5rem 0;
+   .btn-learn {
+    margin: 2rem 0 1rem 0;
+  } 
+  
+  footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  footer h1 {
+    font-size: 0.8rem;
   }
 }
